@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1755402573 source:c:\users\user\onedrive\documents\compiler project\compiler project\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+
+1755347651 source:c:\users\user\onedrive\documents\compiler project\compiler project\input.c
+	<stdio.h>
+
+1755401003 source:c:\users\user\onedrive\documents\compiler project\compiler project\test.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdbool.h>
+

@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+#define MAX_SIZE 1000  // Define the maximum size for reading the file
+
+int main() {
+    FILE *file = fopen("input.c", "r");  // Open the input file for reading
+
+    // Check if the file opened successfully
+    if (!file) {
+        printf("Error opening file.\n");
+        return 1;
+    }
+
+    char code[MAX_SIZE];  // Array to store the contents of the file
+
+    // Read the file line by line and print its content
+    while (fgets(code, sizeof(code), file)) {  // Read each line from the file
+        printf("%s", code);  // Print the content of the file to the terminal
+    }
+
+    fclose(file);  // Close the file when done
+    return 0;
+}
